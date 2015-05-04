@@ -14,9 +14,9 @@ PeekWP is a 3D Folding Panel WordPress theme based on a resource from [CodyHouse
 
 1. Create a new post
 
-2. The content in the Excerpt custom field will be the text that displays in the homepage blocks. Note: If this is not enabled, click 'Screen Options' in the upper right croner when creating a new post and click the checkbox next to 'Excerpt'.
+2. The content in the Excerpt custom field will be the text that displays in the homepage blocks. Note: If this is not enabled, click 'Screen Options' in the upper right corner when creating a new post and click the checkbox next to 'Excerpt'.
 
-3. Change the homepage text and background color in the 'Customizations Fields' area below the post editor. You can also add/edit the button text for each post block. If you leave this field blank a button will not appear..
+3. Change the homepage text and background color in the 'Customizations Fields' area below the post editor. You can also add/edit the button text for each post block. If you leave the button text field blank a button will not appear..
 
 4. Since you installed the required plugins, you will also have a theme options panel where you can customize the theme a bit. Add a logo, change the footer text, add custom CSS. 
 
@@ -32,7 +32,7 @@ Initial release
 
 ##Author
 
-- [Brad Williams](http://braginteractive)
+- [Brad Williams](http://braginteractive.com)
 
 ##Credits
 
