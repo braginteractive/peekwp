@@ -1,0 +1,5 @@
+# General CodeKit files to ignore
+config.codekit
+scss/.sass-cache
+scss/.sass-cache/*
+.DS_Store
