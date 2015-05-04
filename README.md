@@ -36,7 +36,7 @@ Initial release
 
 ##Credits
 
-[Sebastiano Guerriero](http://codyhouse.co/gem/3d-folding-panel/) - Sebastiano Guerriero
+[Cody House](http://codyhouse.co/gem/3d-folding-panel/) - Sebastiano Guerriero
 
 ##License
 License:
