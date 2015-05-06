@@ -30,9 +30,7 @@ get_header(); ?>
 						get_template_part( 'template-parts/content', get_post_format() );
 					?>
 
-				<?php endwhile; ?>
-
-				<?php the_posts_navigation(); ?>
+				<?php endwhile; ?>	
 
 			<?php else : ?>
 
@@ -41,6 +39,8 @@ get_header(); ?>
 			<?php endif; ?>
 		
 			</ul> <!-- .cd-gallery -->
+
+			<?php the_posts_navigation(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

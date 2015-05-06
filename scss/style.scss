@@ -44,7 +44,7 @@ body {
 		family: $primary-font; // variables inside partials > _variables.scss
 	}
 	color: $color-body;
-	background-color: $color-5;
+	background-color: $color-1;
 }
 
 a {
@@ -545,6 +545,47 @@ folding panel
 
 /* -------------------------------- 
 
+Post Navigation
+
+-------------------------------- */
+.screen-reader-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+.posts-navigation {
+	float: left;
+	width: 100%;
+	padding: 5em;
+	background-color: $color-grey;
+
+	.nav-previous, 
+	.nav-next {
+		width: 50%;
+		float: left;
+		text-align: center;
+
+		a {
+			display: inline-block;
+			font-size: 1.2rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			padding: 1em 1.3em;
+			border-radius: 50em;
+			border: 1px solid $color-2;
+		}
+	}
+}
+
+/* -------------------------------- 
+
 Footer
 
 -------------------------------- */
@@ -554,6 +595,8 @@ footer {
 	line-height: 170px;
 	text-align: center;
 	background: $color-6;
+	float: left;
+  	width: 100%;
 
 	@include MQ(M) {
 		height: 200px;

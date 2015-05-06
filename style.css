@@ -30,7 +30,7 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #333333;
-  background-color: #1c1726; }
+  background-color: #363558; }
 
 a {
   color: #544173;
@@ -531,6 +531,42 @@ folding panel
 
 /* -------------------------------- 
 
+Post Navigation
+
+-------------------------------- */
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.posts-navigation {
+  float: left;
+  width: 100%;
+  padding: 5em;
+  background-color: #ebebeb; }
+  .posts-navigation .nav-previous,
+  .posts-navigation .nav-next {
+    width: 50%;
+    float: left;
+    text-align: center; }
+    .posts-navigation .nav-previous a,
+    .posts-navigation .nav-next a {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1em 1.3em;
+      border-radius: 50em;
+      border: 1px solid #544173; }
+
+/* -------------------------------- 
+
 Footer
 
 -------------------------------- */
@@ -538,7 +574,9 @@ footer {
   height: 170px;
   line-height: 170px;
   text-align: center;
-  background: #ffffff; }
+  background: #ffffff;
+  float: left;
+  width: 100%; }
   @media only screen and (min-width: 600px) {
     footer {
       height: 200px;
