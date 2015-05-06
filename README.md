@@ -28,6 +28,12 @@ __Version 0.0.1__
 
 Initial release
 
+__Version 0.0.2__
+
+- post navigation styles
+- remove widgets from 404 page
+- screen reader styles
+
 
 
 ##Author
